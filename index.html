@@ -34,16 +34,18 @@ body {
 
 <p >
  <center>
-    <table><tr><td>
-       <form action="http://www.baidu.com/s" method="get" target="_blank" float>
-                <input type="text" name="wd" placeholder="百度搜索">
-                <button type="submit">搜索</button>
+    <table><tr>
+    <td>
+         <form action="http://www.baidu.com/s" target="_blank"> 
+            <input name="tn" type="hidden" value="baidu">
+            <input class="inputBox" type="text" name="word" sieze="30" placeholder="请输入搜索内容">
+            <input class="searchBtn" type="submit" value="百度搜索">
             </form>  
     </td>
         <td>
            <form action="https://cn.bing.com/search" target="_self" method="get" float >
                 <input type="text" id="search-input" name="q" placeholder="必应">
-                <button type="submit">搜索</button>
+                <button type="submit">必应搜索</button>
             </form>  
         </td>
     </tr>
